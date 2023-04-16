@@ -1,0 +1,15 @@
+name: My Deploy
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: srv-cgtm90o2qv2fde9h9jk0/events
+          api-key: rnd_7FlDKPL7d8fQQvjfU8pC9wa3BnbF
