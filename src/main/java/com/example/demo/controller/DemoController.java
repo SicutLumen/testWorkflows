@@ -9,6 +9,6 @@ public class DemoController {
 
     @RequestMapping("/")
     public ResponseEntity<String> demo(){
-        return ResponseEntity.ok().body("Demo, demo");
+        return ResponseEntity.ok().body("Does this work?");
     }
 }
