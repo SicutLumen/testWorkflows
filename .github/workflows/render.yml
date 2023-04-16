@@ -11,5 +11,5 @@ jobs:
       - name: Deploy to production
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: srv-cgtm90o2qv2fde9h9jk0/events
+          service-id: srv-cgtm90o2qv2fde9h9jk0
           api-key: rnd_7FlDKPL7d8fQQvjfU8pC9wa3BnbF
